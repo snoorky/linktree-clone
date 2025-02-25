@@ -24,7 +24,7 @@ export default function App() {
     {
       "id": "3",
       "title": "Instagram",
-      "link": "http://instagram.com/sno.orky",
+      "link": "https://instagram.com/sno.orky",
       "type": "instagram"
     },
     {
