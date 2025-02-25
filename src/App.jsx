@@ -8,7 +8,34 @@ import Footer from "./components/Footer"
 import Social from "./components/Social"
 
 export default function App() {
-  const [cards, setCards] = useState([])
+  const links = [
+    {
+      "id": "1",
+      "title": "Check Out My Portfolio",
+      "link": "https://snoorky.github.io/",
+      "type": "normal"
+    },
+    {
+      "id": "2",
+      "title": "My GitHub Projects",
+      "link": "https://github.com/snoorky",
+      "type": "normal"
+    },
+    {
+      "id": "3",
+      "title": "Instagram",
+      "link": "http://instagram.com/sno.orky",
+      "type": "instagram"
+    },
+    {
+      "id": "4",
+      "title": "Tiktok",
+      "link": "https://www.tiktok.com/@snoorky",
+      "type": "tiktok"
+    }
+  ]
+
+  const [cards, setCards] = useState(links)
   const normalLinks = cards.filter((item) => item.type === "normal")
   const socialLinks = cards.filter((item) => item.type !== "normal")
 

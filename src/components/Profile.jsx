@@ -2,9 +2,9 @@ import Icon from "./Icon"
 
 export default function Profile() {
   const profile = {
-    image: "https://ugc.production.linktr.ee/Cv6sPO53RYKanyi32OQP_lr3NT26P1DTlco2u?io=true&size=avatar-v3_0",
-    name: "Shanon Cary",
-    description: "Hard times, hard techno",
+    image: "https://avatars.githubusercontent.com/u/63130730",
+    name: "Raphael Vitor",
+    description: "Building ideas, coding dreams",
     isVerificated: true,
   }
 
